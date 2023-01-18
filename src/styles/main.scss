@@ -1,0 +1,22 @@
+$color: rgb(197, 80, 80);
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/BarlowCondensed-Black.ttf") format("truetype");
+}
+
+html,
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  background-color: $color;
+  border: 3px solid red;
+}
+
+h1 {
+  color: white;
+}
